@@ -68,8 +68,8 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("☎️𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭", url = "https://t.me/cimraanking")
     ],[
-        InlineKeyboardButton('🔍 WD Topic Group', url='https://t.me/khaanmovieschat'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/khaanfilmsmovies')
+        InlineKeyboardButton('🔍 WD Topic Group', url='https://t.me/+c5jctZy9axQyOGFk'),
+        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+c5jctZy9axQyOGFk')
 	]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(message.chat.id, f"<b>👋 Hi {message.from_user.mention}, I am Save Restricted Content Bot, I can send you restricted content by its post link.\n\nFor downloading restricted content /login first.\n\nKnow how to use bot by - /help</b>", reply_markup=reply_markup, reply_to_message_id=message.id)
